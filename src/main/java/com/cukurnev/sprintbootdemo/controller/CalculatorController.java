@@ -61,7 +61,7 @@ public class CalculatorController {
             @RequestParam(name = "num2",required = false) Integer num2
     ) {
         if (num1==null || num2==null){
-            return "Проверьте правильность ввернных данных num1 или num2.";}
+            return "Проверьте правильность ввернных данных num1 или num2";}
         if (num2.equals(0)){
             return "Делить на ноль нельзя!!!!";
         }
